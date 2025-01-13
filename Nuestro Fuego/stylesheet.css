@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Kablammo&display=swap');
+
+/* Estilo geral */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: black;
+    overflow-x: hidden;
+    }
+    
+    body {
+    font-family:'roboto' ;
+    line-height: 1.6;
+    color: #333;
+    background:#ff0000a8; 
+    
+    }
+
+        header {
+        list-style-type: none;  
+        
+        }
+
+        
+        .nuestrofuego{
+           
+            
+            display: inline;
+            font-size: 45px; 
+            width: 100px; /* Ajuste a largura conforme necessário */    
+            height: auto; /* Mantém a proporção da imagem */
+        }
+
+        header nav nav li {
+            font-family: "Kablammo", serif;
+            display: inline;
+            margin: 450px;
+            
+        }
+
+        /* conteiner*/
+        header nav ul {
+            width: 100%;   
+            margin: 10px;   
+            
+        }
+        
+
+        header nav ul li {
+        font-family: "Kablammo", serif;
+        font-size: 28px; 
+        margin-inline: 6%;
+        display: inline;
+      
+        }
+
+        /*main*/
+        
+        main{
+            background:#fafafa;
+        }
+    
+
+        .Destaques{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            list-style: none;
+            
+        }
+        
+        h2{
+            font-size: 30px;
+            text-align: center;
+            
+       
+        }
+
+         h3{
+            
+            text-align: center;
+            font-size: 22px; 
+            
+        }
+
+        .Pratosdacasa {
+           width: 350px;
+            margin:  auto; 
+            display: inline;
+           height: 350px;
+           margin-left: 30px; /* Define margem à esquerda */
+           margin-right: 30px; /* Define margem à direita */  
+         
+        }
+
+
+
+        .sobrecasa{
+            background-color: rgb(40, 110, 11);
+            position: relative;
+            margin-left: 30px; /* Define margem à esquerda */
+            margin-right: 52px; /* Define margem à direita */ 
+            font-size: 20px;
+            text-align: center;
+        }
+
+ /* Rodapé */
+    
+ footer {
+    background-color: #f31414;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+    
+    }
+    
+ 
+    
+
+    
+    /* Responsivo */
+    
+    @media (max-width: 768px) {
+    main {
+    flex-direction: column;
+    }
+    section {
+    margin-bottom: 10px;
+    }
+    }
+    
+    @media (max-width: 480px) {
+    header nav ul {
+    flex-direction: column;
+    }
+    header nav ul li {
+    margin-bottom: 10px;
+    }
+    }
+       
+
+    
